@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="x-icon" href="/logo.87024549.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.8f4df1f7.css">
+  </head>
+  <body>
+    <div class="container h-32 w-32">
+      <div class="row h-32 w-32">
+        <div class="item h-32 w-32 border-2 border-solid border-black"></div>
+        <div class="item h-32 w-32 border-[2px] border-black"></div>
+        <div class="item h-32 w-32 border-[20px] border-black"></div>
+      </div>
+    </div>
+  </body>
+</html>
