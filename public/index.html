@@ -9,21 +9,21 @@
   </head>
   <body class="bg-slate-800">
     <div class="container flex flex-col justify-center items-center mt-10">
-      <div class="row flex flex-row">
+      <div class="row1 flex flex-row">
         <div class="box box1 border-black h-28 w-32 border-[8px]"></div>
         <div
           class="box box2 h-28 w-32 -mx-[7px] border-[8px] border-black"
         ></div>
         <div class="box box3 h-28 w-32 border-[8px] border-black"></div>
       </div>
-      <div class="row flex flex-row -my-2">
+      <div class="row2 flex flex-row -my-2">
         <div class="box box4 border-black h-28 w-32 border-[8px]"></div>
         <div
           class="box box5 h-28 w-32 -mx-[7px] border-[8px] border-black"
         ></div>
         <div class="box box6 h-28 w-32 border-[8px] border-black"></div>
       </div>
-      <div class="row flex flex-row">
+      <div class="row3 flex flex-row">
         <div class="box box7 border-black h-28 w-32 border-[8px]"></div>
         <div
           class="box box8 h-28 w-32 -mx-[7px] border-[8px] border-black"
@@ -34,7 +34,7 @@
     <div class="PlayerContainer flex flex-row justify-center gap-[600px] mt-12">
       <div class="main1">
         <img
-          class="message1 h-auto w-40 absolute -mx-1 -my-24"
+          class="message1 h-auto w-40 absolute -mx-1 -my-24 opacity-0"
           src="message.png"
           alt=""
         />
@@ -46,7 +46,7 @@
       </div>
       <div class="main2">
         <img
-          class="message2 h-auto w-40 absolute -mx-1 -my-24"
+          class="message2 h-auto w-40 absolute -mx-1 -my-24 opacity-0"
           src="message.png"
           alt=""
         />
@@ -54,6 +54,43 @@
           class="player player2 text-center flex justify-center items-center rounded h-12 w-28 bg-[#42413e]"
         >
           Player2
+        </div>
+      </div>
+    </div>
+    <button
+      class="btn absolute -my-[400px] mx-36 h-16 w-36 bg-[#b5b526] rounded border-[2px] border-[#76745a]"
+    >
+      New Game
+    </button>
+    <div
+      class="flex flex-col scoreCard absolute -my-[400px] mx-[1000px] h-32 w-96 rounded"
+    >
+      <div
+        class="profile flex flex-row gap-12 h-16 w-48 justify-center items-center bg-[#3fb0e0] rounded-tl rounded-tr"
+      >
+        <div
+          class="name1 text-center flex flex-row justify-center items-center px-2 rounded py-2 bg-[#d34949]"
+        >
+          Player1
+        </div>
+        <div
+          class="score1 text-center flex justify-center items-center px-2 rounded py-2 bg-[#d34990]"
+        >
+          0
+        </div>
+      </div>
+      <div
+        class="profile flex flex-row gap-12 h-16 w-48 justify-center items-center bg-[#546eb1] rounded-bl rounded-br"
+      >
+        <div
+          class="name2 text-center flex justify-center items-center px-2 rounded py-2 bg-[#5adcc4a3]"
+        >
+          Player2
+        </div>
+        <div
+          class="score2 text-center flex justify-center px-2 rounded py-2 items-center bg-[#cec943]"
+        >
+          0
         </div>
       </div>
     </div>
